@@ -2,7 +2,7 @@
 public class BlueSpruce extends Tree {
 
 	public BlueSpruce() {
-		description = "Colorado Blue Spruce \n";
+		description = "Colorado Blue Spruce decorated with: \n";
 	}
 
 	public double cost() {
