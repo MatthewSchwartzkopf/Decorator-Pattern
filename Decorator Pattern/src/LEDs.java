@@ -5,11 +5,11 @@ public class LEDs extends TreeDecorator {
 	public LEDs(Tree tree) {
 		this.tree = tree;
 	}
-	
+
 	public String getDescription() {
-		return tree.getDescription() + ", LEDs";
+		return tree.getDescription() + "\t LEDs($10.00) \n";
 	}
-	
+
 	public double cost() {
 		return 10.00 + tree.cost();
 	}
