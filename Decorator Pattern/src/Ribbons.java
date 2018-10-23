@@ -7,7 +7,7 @@ public class Ribbons extends TreeDecorator {
 	}
 	
 	public String getDescription() {
-		return tree.getDescription() + ", Ribbons";
+		return tree.getDescription() + "\t Ribbons($2.00) \n";
 	}
 	
 	public double cost() {
