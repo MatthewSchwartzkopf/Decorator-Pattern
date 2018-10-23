@@ -7,7 +7,7 @@ public class Star extends TreeDecorator {
 	}
 	
 	public String getDescription() {
-		return tree.getDescription() + ", Star";
+		return tree.getDescription() + "\t Star(4.00) \n";
 	}
 	
 	public double cost() {
