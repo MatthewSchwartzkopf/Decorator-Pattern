@@ -6,7 +6,6 @@ public class Ruffles extends TreeDecorator {
 		this.tree = tree;
 	}
 
-	@Override
 	public String getDescription() {
 		return tree.getDescrption() + ", Ruffles";
 	}
@@ -14,7 +13,4 @@ public class Ruffles extends TreeDecorator {
 	public double cost() {
 		return 1.00 + tree.cost();
 	}
-
-	@Override
-	public void print() {};
 }

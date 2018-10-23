@@ -1,8 +1,8 @@
 
 public abstract class Tree {
-
-	String description = "Template Tree";
+	String description = "Unknown Tree";
 	boolean hasStar = false;
+	Tree tree;
 	
 	public String getDescrption() {
 		return description;
@@ -10,5 +10,4 @@ public abstract class Tree {
 	
 	public abstract double cost();
 
-	public abstract void print();
 }
