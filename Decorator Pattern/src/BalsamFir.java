@@ -2,10 +2,10 @@
 public class BalsamFir extends Tree {
 
 	public BalsamFir() {
-		description = "Balsam Fir";
+		description = "Balsalm Fir";
 	}
 	
-	public double cost() {		
+	public double cost() {
 		return 5.00;
-	}	
+	}
 }

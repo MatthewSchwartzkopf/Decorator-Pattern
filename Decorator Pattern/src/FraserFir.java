@@ -6,6 +6,6 @@ public class FraserFir extends Tree {
 	}
 	
 	public double cost() {
-		return 12.0;
+		return 12.00;
 	}
 }

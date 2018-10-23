@@ -6,6 +6,6 @@ public class DouglasFir extends Tree {
 	}
 	
 	public double cost() {
-		return 15.0;
+		return 15.00;
 	}
 }
